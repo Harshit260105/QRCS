@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PHP Server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "src"
+            ],
+            "port": 8000,
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        }
+    ]
+}
